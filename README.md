@@ -1,5 +1,4 @@
 ## What's mongoose-float?
-[![npm version](https://badge.fury.io/js/mongoose-float.svg)](https://www.npmjs.com/package/mongoose-float)
 
 This library can solve one well known problem with JavaScript Number arithmetic imprecise, when, for example, 3.3 * 3 becomes 9.899999999999999, ugly.
 This can occur when you try to save double values in Mongo DB, it can be balance, discounts etc.
