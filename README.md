@@ -5,13 +5,18 @@ This can occur when you try to save double values in Mongo DB, it can be balance
 
 #### Getting start
 ```
-npm install mongoose-float
+npm install @waape/mongoose-float@1.0.5
+```
+or
+
+```
+yarn add @waape/mongoose-float@1.0.5
 ```
 
 #### Basic usage
 ```javascript
 var mongoose = require('mongoose');
-var Float = require('mongoose-float').loadType(mongoose);
+var Float = require('@waape/mongoose-float').loadType(mongoose);
 
 var UserSchema = mongoose.Schema({ balance: { type: Float } });
 var User = mongoose.model('User', UserSchema);
@@ -25,7 +30,7 @@ var user = new User({ balance: 100.111111111 });
 #### Specify the count of fractional digits
 ```javascript
 var mongoose = require('mongoose');
-var Float = require('mongoose-float').loadType(mongoose, 4);
+var Float = require('@waape/mongoose-float').loadType(mongoose, 4);
 
 var ProductSchema = mongoose.Schema({ price: { type: Float } });
 var Product = mongoose.model('Product', ProductSchema);
