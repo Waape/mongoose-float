@@ -52,11 +52,39 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1645090852106</updated>
-      <workItem from="1645090853237" duration="1916000" />
+      <workItem from="1645090853237" duration="5453000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove badge">
+      <created>1645102364215</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1645102364215</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Update ReadME">
+      <created>1645102517139</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1645102517139</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Update version">
+      <created>1645102692994</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1645102692994</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove badge" />
+    <MESSAGE value="Update ReadME" />
+    <MESSAGE value="Update version" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update version" />
   </component>
 </project>

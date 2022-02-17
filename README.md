@@ -5,12 +5,12 @@ This can occur when you try to save double values in Mongo DB, it can be balance
 
 #### Getting start
 ```
-npm install @waape/mongoose-float@1.0.5
+npm install @waape/mongoose-float
 ```
 or
 
 ```
-yarn add @waape/mongoose-float@1.0.5
+yarn add @waape/mongoose-float
 ```
 
 #### Basic usage
